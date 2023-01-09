@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ver 4 Pre Loader</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .parentDiv {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+      }
+
+      .wrapper {
+        width: 100%;
+        max-width: 1080px;
+        margin: 0 auto;
+      }
+
+      #one {
+        stroke-dasharray: 1490.13671875;
+        stroke-dashoffset: 1490.13671875;
+        animation: one__in 3s ease-in-out alternate infinite;
+      }
+
+      @keyframes one__in {
+        100% {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      #one_2 {
+        stroke-dasharray: 1490.13671875;
+        stroke-dashoffset: 1490.13671875;
+        animation: one__in2 3s ease-in-out infinite;
+      }
+
+      @keyframes one__in2 {
+        100% {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      #top {
+        transform-box: fill-box;
+        transform-origin: center bottom;
+        transform: translateY(800px);
+        animation: one__in3 12s ease-in-out infinite;
+      }
+
+      @keyframes one__in3 {
+        100% {
+          transform: translateY(0px);
+        }
+      }
+
+      #one_top {
+        stroke-dasharray: 1490.13671875;
+        stroke-dashoffset: 1490.13671875;
+        animation: one__in 3s ease-in-out alternate infinite;
+      }
+
+      #two_bottom {
+        stroke-dasharray: 516.086669921875;
+        stroke-dashoffset: 516.086669921875;
+        transform-origin: center;
+        transform-box: fill-box;
+        transform: rotateY(180deg);
+        animation: one__in 3s ease-in-out alternate infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parentDiv">
+      <div class="wrapper">
+        <svg
+          width="300"
+          min-height="0"
+          viewBox="0 0 1164 1164"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="pre-loader">
+            <path
+              id="two"
+              d="M925.481 910.704H238.502C225.52 910.704 218.886 926.531 228.074 935.726C318.638 1026.33 443.687 1082.49 581.956 1082.49C720.225 1082.49 845.297 1026.33 935.838 935.726C945.097 926.531 938.511 910.704 925.481 910.704Z"
+              fill="#101E2C"
+            />
+            <g id="one">
+              <path
+                id="Vector"
+                d="M184.272 681.929C176.097 649.318 171.958 615.753 172 581.988C172 355.558 355.54 171.988 582 171.988C808.46 171.988 992 355.558 992 581.988C992.045 615.753 987.907 649.319 979.731 681.929"
+                stroke="#101E2C"
+                stroke-width="180"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+              />
+            </g>
+          </g>
+        </svg>
+
+        <svg
+          width="300"
+          min-height="0"
+          viewBox="0 0 1164 1164"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="pre-loader">
+            <path
+              id="two"
+              d="M925.481 910.704H238.502C225.52 910.704 218.886 926.531 228.074 935.726C318.638 1026.33 443.687 1082.49 581.956 1082.49C720.225 1082.49 845.297 1026.33 935.838 935.726C945.097 926.531 938.511 910.704 925.481 910.704Z"
+              fill="#101E2C"
+            />
+            <g id="one_2">
+              <path
+                id="Vector"
+                d="M184.272 681.929C176.097 649.318 171.958 615.753 172 581.988C172 355.558 355.54 171.988 582 171.988C808.46 171.988 992 355.558 992 581.988C992.045 615.753 987.907 649.319 979.731 681.929"
+                stroke="#101E2C"
+                stroke-width="180"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+              />
+            </g>
+          </g>
+        </svg>
+
+        <svg
+          width="300"
+          min-height="0"
+          viewBox="0 0 1164 1164"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="pre loader">
+            <rect width="1164" height="1164" fill="white" />
+            <path
+              id="top"
+              d="M184.272 681.929C176.097 649.318 171.958 615.753 172 581.988C172 355.558 355.54 171.988 582 171.988C808.46 171.988 992 355.558 992 581.988C992.045 615.753 987.907 649.319 979.731 681.929"
+              stroke="#101E2C"
+              stroke-width="180"
+              stroke-miterlimit="10"
+              stroke-linecap="round"
+            />
+            <rect
+              id="bg-white"
+              y="910.704"
+              width="1164"
+              height="253.296"
+              fill="white"
+            />
+            <path
+              id="bottom"
+              d="M925.481 910.704H238.502C225.52 910.704 218.886 926.531 228.074 935.726C318.638 1026.33 443.687 1082.49 581.956 1082.49C720.225 1082.49 845.297 1026.33 935.838 935.726C945.097 926.531 938.511 910.704 925.481 910.704Z"
+              fill="#101E2C"
+            />
+          </g>
+        </svg>
+
+        <svg
+          width="300"
+          min-height="0"
+          viewBox="0 0 1164 1164"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="pre loader">
+            <path
+              id="one_top"
+              d="M184.272 681.929C176.097 649.318 171.958 615.753 172 581.988C172 355.558 355.54 171.988 582 171.988C808.46 171.988 992 355.558 992 581.988C992.045 615.753 987.907 649.319 979.731 681.929"
+              stroke="#101E2C"
+              stroke-width="180"
+              stroke-miterlimit="10"
+              stroke-linecap="round"
+            />
+            <g id="stroke">
+              <path
+                id="two_bottom"
+                d="M340.661 918.093C408.364 967.464 491.769 996.598 581.986 996.598C672.202 996.598 755.607 967.464 823.31 918.093"
+                stroke="#101E2C"
+                stroke-width="180"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+              />
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </body>
+</html>
