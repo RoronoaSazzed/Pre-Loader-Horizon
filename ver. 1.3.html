@@ -28,11 +28,26 @@
       #one_top {
         stroke-dasharray: 1490.13671875;
         stroke-dashoffset: 1490.13671875;
-        animation: one__in 3s ease-in-out alternate infinite;
+        animation: one__in1 3s ease-in-out alternate infinite;
       }
 
-      @keyframes one__in {
+      @keyframes one__in1 {
+        0% {
+          opacity: 0;
+          stroke-dashoffset: 1490.13671875;
+        }
+
+        5% {
+          opacity: 1;
+        }
+
+        50% {
+          opacity: 1;
+          stroke-dashoffset: 0;
+        }
+
         100% {
+          opacity: 1;
           stroke-dashoffset: 0;
         }
       }
@@ -43,7 +58,24 @@
         transform-origin: center;
         transform-box: fill-box;
         transform: rotateY(180deg);
-        animation: one__in 3s ease-in-out alternate infinite;
+        animation: one__in2 3s ease-in-out alternate infinite;
+      }
+
+      @keyframes one__in2 {
+        0%,
+        50% {
+          opacity: 0;
+          stroke-dashoffset: 516.086669921875;
+        }
+
+        55% {
+          opacity: 1;
+        }
+
+        100% {
+          opacity: 1;
+          stroke-dashoffset: 0;
+        }
       }
     </style>
   </head>
