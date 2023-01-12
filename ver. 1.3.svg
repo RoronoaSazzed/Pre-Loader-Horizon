@@ -1,18 +1,18 @@
 <svg width="100%" min-height="0" viewBox="0 0 1164 1164" fill="none"
-    xmlns="http://www.w3.org/2000/svg">
-    <g id="pre loader">
-        <path id="one_top" d="M184.272 681.929C176.097 649.318 171.958 615.753 172 581.988C172 355.558 355.54 171.988 582 171.988C808.46 171.988 992 355.558 992 581.988C992.045 615.753 987.907 649.319 979.731 681.929" stroke="#101E2C" stroke-width="180" stroke-miterlimit="10" stroke-linecap="round" />
-        <g id="stroke">
-            <path id="two_bottom" d="M340.661 918.093C408.364 967.464 491.769 996.598 581.986 996.598C672.202 996.598 755.607 967.464 823.31 918.093" stroke="#101E2C" stroke-width="180" stroke-miterlimit="10" stroke-linecap="round" />
-        </g>
+  xmlns="http://www.w3.org/2000/svg">
+  <g id="pre loader">
+    <path id="one_top" d="M184.272 681.929C176.097 649.318 171.958 615.753 172 581.988C172 355.558 355.54 171.988 582 171.988C808.46 171.988 992 355.558 992 581.988C992.045 615.753 987.907 649.319 979.731 681.929" stroke="#101E2C" stroke-width="180" stroke-miterlimit="10" stroke-linecap="round" />
+    <g id="stroke">
+      <path id="two_bottom" d="M340.661 918.093C408.364 967.464 491.769 996.598 581.986 996.598C672.202 996.598 755.607 967.464 823.31 918.093" stroke="#101E2C" stroke-width="180" stroke-miterlimit="10" stroke-linecap="round" />
     </g>
+  </g>
 
-    <defs>
-        <style>
+  <defs>
+    <style>
 #one_top {
         stroke-dasharray: 1490.13671875;
         stroke-dashoffset: 1490.13671875;
-        animation: one__in1 3s ease-in-out alternate infinite;
+        animation: one__in1 3s ease-in-out infinite;
       }
 
       @keyframes one__in1 {
@@ -42,7 +42,7 @@
         transform-origin: center;
         transform-box: fill-box;
         transform: rotateY(180deg);
-        animation: one__in2 3s ease-in-out alternate infinite;
+        animation: one__in2 3s ease-in-out infinite;
       }
 
       @keyframes one__in2 {
@@ -61,6 +61,6 @@
           stroke-dashoffset: 0;
         }
       }
-        </style>
-    </defs>
+    </style>
+  </defs>
 </svg>
